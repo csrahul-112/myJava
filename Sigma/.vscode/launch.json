@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArraySwap",
+            "request": "launch",
+            "mainClass": "ArraySwap",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayAsFunctionArgument",
+            "request": "launch",
+            "mainClass": "ArrayAsFunctionArgument",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInputOutput",
+            "request": "launch",
+            "mainClass": "ArrayInputOutput",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "CreatingArray",
+            "request": "launch",
+            "mainClass": "CreatingArray",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "LargestInArray",
+            "request": "launch",
+            "mainClass": "LargestInArray",
+            "projectName": "Sigma_7976b341"
+        },
+        {
+            "type": "java",
+            "name": "LiniearSearch",
+            "request": "launch",
+            "mainClass": "LiniearSearch",
+            "projectName": "Sigma_7976b341"
+        }
+    ]
+}
