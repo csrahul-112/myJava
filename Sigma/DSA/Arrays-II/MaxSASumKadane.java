@@ -6,13 +6,14 @@ public class MaxSASumKadane {
         int element = Integer.MIN_VALUE;
 
         for(int i = 0; i < arr.length; i++){//Using mSum because it will only be negative and in Kadane its going to be zero if its not negative
+            //this for loop is for checking if all the element of the array is negative if so handle that case by returning the smallest negative number or greatest integer out of all.
             if(element < arr[i]){
                 element = arr[i];
             }
         }
-        if(element < 0){
+        if(element < 0){//handeling all negative integer here
             System.out.println("The maximum sum of subarray  out of all Subarray is = " + element);
-        }else{
+        }else{//handeling the normal cases
             for(int i = 0; i < arr.length; i++){
                 cSum += arr[i];
                 if(cSum < 0){
