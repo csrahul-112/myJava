@@ -6,8 +6,6 @@ public class BubbleSort {
     }
 
     public static int[] bubbleSort(int[] arr){
-        int sortedArr[] = new int[arr.length];
-
         int n = arr.length;
         int swap = 0;
         for(int i = 0; i < (arr.length - 1); i++){
@@ -27,7 +25,7 @@ public class BubbleSort {
             }
     
         }
-        return sortedArr;
+        return arr;
     }
 
     public static void main(String args[]){
