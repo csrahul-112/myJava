@@ -64,12 +64,14 @@ public class SpiralMatrix {
 
 
 
-        // spiralMatrix(matrix);
-        // System.out.println();
-        // spiralMatrix(arr);
-        // System.out.println();
-        // spiralMatrix(arr1);
-        // System.out.println();
+        spiralMatrix(matrix);
+        System.out.println();
+        spiralMatrix(arr);
+        System.out.println();
+        spiralMatrix(arr1);
+        System.out.println();
+        spiralMatrix(arr2);
+        System.out.println();
         spiralMatrix(arr3);
     }
 }
