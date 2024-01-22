@@ -12,6 +12,10 @@ public class SelectionSort {
             int temp = arr[minPos];
             arr[minPos] = arr[i];
             arr[i] = temp;
+            for(int k = 0; k < arr.length; k++){
+                System.out.print(arr[k] + " ");
+            }
+            System.out.println();
         }
     }
 
