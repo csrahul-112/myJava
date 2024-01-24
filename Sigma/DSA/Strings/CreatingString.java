@@ -19,6 +19,8 @@ public class CreatingString {
     System.out.println("Enter a word : ");
     String str4 = sc.next();
 
+    sc.nextLine();
+
     System.out.println("Enter a line as a string : ");
     String str5 = sc.next();
 
