@@ -16,7 +16,7 @@ public class SpiralMatrix {
 
             //Bottom Line
             for(int j = eCol - 1; j >= sCol; j--){
-                if(sCol == eCol){
+                if(sRow == eRow){
                     break;
                 }
                 System.out.print(matrix[eRow][j] + " ");
@@ -24,7 +24,7 @@ public class SpiralMatrix {
 
             //Left line
             for(int i = eRow - 1; i >= sRow + 1; i--){
-                if(sRow == eRow){
+                if(sCol == eCol){
                     break;
                 }
                 System.out.print(matrix[i][sCol] + " ");
