@@ -60,7 +60,30 @@ public class AllSortingAlgo {
 
     //CountingSort
     public static void countingSort(int[] arr){
-        
+        int largest = Integer.MIN_VALUE;
+        int n  = arr.length;
+        for(int i = 0; i < n; i++){
+            if(largest < arr[i]){
+                largest = arr[i];
+            }
+        }
+
+        int[]count = new int[largest+1];
+        for(int i = 0; i < n; i++){
+            count[arr[i]]++;
+        }
+        int j = 0;
+        for(int i = count.length-1; i >= 0; i--){
+            while(count[i] > 0){
+                arr[j] = i; 
+                j++;
+                count[i]--;
+            }
+        }
+
+        for(int i = 0; i < n; i++){
+            System.out.print(arr[i] + ", ");
+        }
     }
 
     public static void main(String args[]){
@@ -68,6 +91,7 @@ public class AllSortingAlgo {
         bubbleSort(arr);
         selectionSort(arr);
         insertionSort(arr);
+        countingSort(arr);
 
         
 
