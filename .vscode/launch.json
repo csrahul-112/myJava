@@ -1,0 +1,252 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayAsFunctionArgument",
+            "request": "launch",
+            "mainClass": "ArrayAsFunctionArgument",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInputOutput",
+            "request": "launch",
+            "mainClass": "ArrayInputOutput",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "ArraySwap",
+            "request": "launch",
+            "mainClass": "ArraySwap",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BoilerPlate",
+            "request": "launch",
+            "mainClass": "BoilerPlate",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BreakTest",
+            "request": "launch",
+            "mainClass": "BreakTest",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BuySellStockBT",
+            "request": "launch",
+            "mainClass": "BuySellStockBT",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "BuySellStocks",
+            "request": "launch",
+            "mainClass": "BuySellStocks",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CountingSort",
+            "request": "launch",
+            "mainClass": "CountingSort",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CreatingArray",
+            "request": "launch",
+            "mainClass": "CreatingArray",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CreationNInput",
+            "request": "launch",
+            "mainClass": "CreationNInput",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalSum",
+            "request": "launch",
+            "mainClass": "DiagonalSum",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "LargestInArray",
+            "request": "launch",
+            "mainClass": "LargestInArray",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "LeetCode.ClimbingStairs",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "LeetCode.RemoveDuplicate",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "OnePlus",
+            "request": "launch",
+            "mainClass": "LeetCode.WrongCodes.OnePlus",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "OnePlus2",
+            "request": "launch",
+            "mainClass": "LeetCode.WrongCodes.OnePlus2",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "LiniearSearch",
+            "request": "launch",
+            "mainClass": "LiniearSearch",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "MaxSASumKadane",
+            "request": "launch",
+            "mainClass": "MaxSASumKadane",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySumBF",
+            "request": "launch",
+            "mainClass": "MaxSubArraySumBF",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySumPA",
+            "request": "launch",
+            "mainClass": "MaxSubArraySumPA",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "PairInArray",
+            "request": "launch",
+            "mainClass": "PairInArray",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "PrintingSubArrays",
+            "request": "launch",
+            "mainClass": "PrintingSubArrays",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "SearchInSortedMatrix",
+            "request": "launch",
+            "mainClass": "SearchInSortedMatrix",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "SpiralMatrix",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CheckPalindromeString",
+            "request": "launch",
+            "mainClass": "Strings.CheckPalindromeString",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CreatingString",
+            "request": "launch",
+            "mainClass": "Strings.CreatingString",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "TrappingRainWater",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainwater",
+            "request": "launch",
+            "mainClass": "TrappingRainwater",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "TrueIfRepeat",
+            "request": "launch",
+            "mainClass": "TrueIfRepeat",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "TypesOfDS",
+            "request": "launch",
+            "mainClass": "TypesOfDS",
+            "projectName": "myJava_e291d432"
+        }
+    ]
+}

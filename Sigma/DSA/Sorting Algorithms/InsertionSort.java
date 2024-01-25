@@ -13,7 +13,7 @@ public class InsertionSort {
         }
     }
     public static void main(String args[]){
-        int arr[] = {4, 2, 3, 1};
+        int arr[] = {5, 3, 2, 4, 6, 3, 1};
 
         insertionSort(arr);
 
