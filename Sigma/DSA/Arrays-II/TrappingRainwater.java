@@ -36,7 +36,7 @@ public class TrappingRainwater {
 
     public static void main(String args[]){
         int arr[] = {4, 2, 0, 6, 3, 2, 5};
-        int Arr[] = {1, 2, 3, 4, 5, 6, 7};
+        int Arr[] = {4, 2, 0, 3, 2, 5};
 
         trappingRainwater(arr);
         trappingRainwater(Arr);
