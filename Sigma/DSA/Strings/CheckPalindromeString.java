@@ -19,6 +19,8 @@ public class CheckPalindromeString {
 
         String str = sc.next();
 
+        sc.close();
+
         System.out.println(checkPalindromeString(str));
     }
 }

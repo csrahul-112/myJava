@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShortestPath",
+            "request": "launch",
+            "mainClass": "ShortestPath",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
             "name": "AllSortingAlgo",
             "request": "launch",
             "mainClass": "AllSortingAlgo",
