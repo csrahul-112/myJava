@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class CreatingString {
     public static void main(String args[]) {
     //
