@@ -22,5 +22,8 @@ public class ReturningSubstring {
         sc.close();
 
         System.out.println(returningSubstring(str, si, ei));
+
+        //Inbuild function for same or inbuild substring function
+        System.out.println(str.substring(si, ei));
     }
 }
