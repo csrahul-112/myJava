@@ -12,6 +12,19 @@ public class UpdateIthBit {
 
         return num|BitMask;
     }
+
+    public static int updateIthBit(int num, int i, int UpdatedBit){
+        // if(UpdatedBit == 0){
+        // return clearIthBit(num, i);
+        // }
+        // return setIthBit(num, i);
+
+        //There is one more logic for this function.
+        num = clearIthBit(num, i);
+        int BitMask = UpdatedBit<<i;
+        return num | BitMask;
+        
+    }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -22,10 +35,14 @@ public class UpdateIthBit {
         System.out.println("Emter the index i :");
         int i = sc.nextInt();
 
-        if(UpdatedBit == 0){
-            System.out.println(clearIthBit(num, i));
-        }else{
-            System.out.println(setIthBit(num, i));
-        }
+        sc.close();
+
+        // if(UpdatedBit == 0){
+        //     System.out.println(clearIthBit(num, i));
+        // }else{
+        //     System.out.println(setIthBit(num, i));
+        // }
+
+        System.out.println(updateIthBit(num, i, UpdatedBit));
     }
 }
