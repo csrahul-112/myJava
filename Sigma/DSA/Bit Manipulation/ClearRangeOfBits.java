@@ -1,16 +1,26 @@
 import java.util.*;
 
+
 public class ClearRangeOfBits {
-    public static int clearLastBits(int num, int i){
-        int BitMask = (~0) << i;
-        return num & BitMask; 
+    public static int clearLastBits(int num, int j){
+        int BitMask = ((~0) << (j+1));
+        return BitMask; 
     }
     public static int clearInitialBits(int num, int i){
         int BitMask = (1<<i)-1;
-        return num & BitMask;
+        return BitMask;
     }
-    public static int clearRangeOfBits(int num1, int num2){
-        return num1 | num2;
+    public static int clearRangeOfBits(int num, int num1, int num2){
+        return num & (num1 | num2);
+    }
+
+    //Shradhadi's code
+    public static int ClearRangeOfBitsSD(int num, int i, int j){
+        int a = ((~0) << (j+1));
+        int b = ((1<<i) - 1);
+        int BitMask = a|b;
+
+        return num & BitMask;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -23,8 +33,7 @@ public class ClearRangeOfBits {
 
         sc.close();
 
-        System.out.println(clearInitialBits(num, j));
-        System.out.println(clearLastBits(num, i));
-        System.out.println(clearRangeOfBits(clearInitialBits(num, j), clearLastBits(num, i)));
+        System.out.println(clearRangeOfBits(num, clearInitialBits(num, i), clearLastBits(num, j)));
+        System.out.println(ClearRangeOfBitsSD(num, i, j));
     }
 }
