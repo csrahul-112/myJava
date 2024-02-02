@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class PowerOf2 {
+    
     public static boolean checkPowerOf2(int num){
         return (num&(num-1)) == 0;
     }
