@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountSetBit",
+            "request": "launch",
+            "mainClass": "CountSetBit",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
+            "name": "CountSetBits",
+            "request": "launch",
+            "mainClass": "CountSetBits",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
             "name": "ShortestPath",
             "request": "launch",
             "mainClass": "ShortestPath",
