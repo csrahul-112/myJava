@@ -4,7 +4,8 @@ public class BreakTest {
             System.out.println("before entering nested for : " + i);
             for(int j = i+1; j < 5; j++){
                 System.out.println(i + " inside nested for ");
-                break;
+                if(j==4)
+                    break;
             }
             System.out.println("after break statement : "+i);
         }
