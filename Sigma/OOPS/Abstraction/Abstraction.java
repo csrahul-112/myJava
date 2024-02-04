@@ -9,9 +9,6 @@ public class Abstraction {
     public static void main(String args[]){
         Arabians chetak = new Arabians();
         System.out.println(chetak.color);
-        
-
-
     }
 }
 
