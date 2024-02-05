@@ -12,6 +12,7 @@ public class Constructor {
         s1.name  = "Wali";
         s1.marks[0] = 28;
 
+        System.out.println(s1.name);
         System.out.println(s2.name);
         for(int i = 0; i < 3; i++){
             System.out.println(s2.marks[i] + " ");
