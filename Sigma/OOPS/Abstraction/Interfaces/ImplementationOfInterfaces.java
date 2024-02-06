@@ -1,5 +1,3 @@
-import javax.sound.sampled.SourceDataLine;
-
 public class ImplementationOfInterfaces {
     public static void main(String args[]){
         Gt800 C1 = new Gt800();
