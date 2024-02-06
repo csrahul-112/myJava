@@ -3,7 +3,8 @@ public class XToThePowerNOptimized {
         if(n == 0){
             return 1;
         }
-        int halfPowerToN = xToThePowerNOptimized(x, n/2) * xToThePowerNOptimized(x, n/2);
+        int halfPower = xToThePowerNOptimized(x, n/2);
+        int halfPowerToN = halfPower * halfPower;
 
         if(n % 2 != 0){
             halfPowerToN = x * halfPowerToN;
