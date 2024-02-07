@@ -10,7 +10,7 @@ public class NumberInWords {
         System.out.print(digits[lastDigit] + " ");
     }
     public static void main(String[] args){
-        int n = 1234;
+        int n = 12304;
         numberInWords(n);
     }
 }
