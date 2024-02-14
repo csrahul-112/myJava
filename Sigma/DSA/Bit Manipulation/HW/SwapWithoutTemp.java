@@ -1,9 +1,10 @@
 public class SwapWithoutTemp {
     public static void main(String[] args){
-        int a = 10;
-        int b = 11;
+        int a = 12;
+        int b = 13;
 
         a = a^b;
+        System.out.println(a);
         b = a^b;
         a = a^b;
 

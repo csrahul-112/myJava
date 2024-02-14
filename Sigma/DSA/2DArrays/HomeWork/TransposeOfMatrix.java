@@ -21,7 +21,7 @@ public class TransposeOfMatrix {
                       };
         transposeOfMatrix(arr);
         // System.out.println(arr[0].length);
-        // System.out.println(arr.length);
+        System.out.println(arr.length);
 
 
     }
