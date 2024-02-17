@@ -9,6 +9,7 @@ public class TowerOfHanoi {
         towerOfHanoi(n-1, B, C, A);
     }
     public static void main(String args[]){
-        towerOfHanoi(3, 1, 3, 2);
+        towerOfHanoi(5, 1, 3, 2);
+        
     }
 }
