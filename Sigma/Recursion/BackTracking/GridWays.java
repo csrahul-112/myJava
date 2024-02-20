@@ -13,7 +13,7 @@ public class GridWays {
         return w1+w2;
     }
     public static void main (String args[]){
-        int[][] grid = new int[3][3];
+        //int[][] grid = new int[3][3];
         System.out.println(gridWays(0, 0, 3, 3));
     }
 }
