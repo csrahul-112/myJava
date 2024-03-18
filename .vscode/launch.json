@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LoopInLL",
+            "request": "launch",
+            "mainClass": "LoopInLL",
+            "projectName": "myJava_e291d432"
+        },
+        {
+            "type": "java",
             "name": "CountSetBit",
             "request": "launch",
             "mainClass": "CountSetBit",
