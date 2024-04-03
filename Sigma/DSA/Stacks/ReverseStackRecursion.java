@@ -2,14 +2,27 @@ import java.util.Stack;
 
 public class ReverseStackRecursion {
 
+    public static void pushAtBottom(Stack<Integer> s, int data){
+        if (s.isEmpty()) {
+            s.push(data);
+            return;
+        }
+
+        int val = s.pop();
+        pushAtBottom(s, data);
+        s.push(val);
+    }
+
     public static void reverseStackRecusrsion(Stack<Integer> s){
+        
         if (s.isEmpty()) {
             return;
         }
         
-        int val = s.pop();
+        int top = s.pop();
         reverseStackRecusrsion(s);
-        s.push(val);
+        pushAtBottom(s, top);
+        
     }
     public static void main(String args[]){
         Stack<Integer> s = new Stack<>();
